@@ -1,0 +1,17 @@
+body{
+    background-color: #000;
+    height: 4000px;
+}
+
+/* statr nav  */
+nav{
+    width: 250px;
+    height: 100vh;
+}
+/* end nav  */
+
+/* start header  */
+header .container{
+    width: 70% !important;
+}
+/* End header  */
