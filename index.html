@@ -17,14 +17,14 @@
   </head>
   <body >
     <!-- start navBar  -->
-    <nav class=" position-fixed">
+    <nav id="menu" class=" position-fixed">
       <div class="conatiner">
         <div class="row vh-100">
-            <div class="col-10">
-                <div class="row vh-100 flex-column justify-content-between">
+            <div  class="col-9 m-0 p-0 position-relative">
+                <div class="row vh-100 flex-column justify-content-between m-0 p-0">
                     <div class="col-12">
-                        <div class="links p-3">
-                            <ul class="list-unstyled">
+                        <div class="  p-3">
+                            <ul class="list-unstyled links position-absolute py-3">
                                 <li class="mb-3"><a href="#" class="text-light text-decoration-none">Search</a></li>
                                 <li class="mb-3"><a href="#" class="text-light text-decoration-none">Categories</a></li>
                                 <li class="mb-3"><a href="#" class="text-light text-decoration-none">Area</a></li>
@@ -45,19 +45,26 @@
                     </div>
                 </div>
             </div>
-            <div class="col-2 bg-white">
+            <div class="col-3 bg-white">
                 <div class="row py-3 vh-100 flex-column justify-content-between ">
                     <div class="col-12">
                         <div class="logo d-flex justify-content-center">
-                            <h2>T</h2>
+                            <img src="images/logo.png" class="img-fluid" alt="logo">
                         </div>
                     </div>
-                    <div class="col-12 d-flex justify-content-center">
-                        <i class="fa fa-bars fa-2x d-none"></i>
-                        <i class="fa-solid fa-xmark fa-3x"></i>                    </div>
+                    <div id="ev" class="col-12 d-flex justify-content-center">
+
+                        <div class="show d-none">
+                            <i class="fa fa-bars fa-2x "></i>
+                        </div>
+                        <div class="close">
+                            <i class="fa-solid fa-xmark fa-3x"></i>                    
+                        </div>
+                    </div>
                     <div class="col-12">
-                        <i class="fa-solid mx-auto mb-2 fa-globe d-block"></i>
-                        <i class="fa-solid mx-auto fa-share-nodes d-block"></i>
+
+                        <i class="fa-solid mx-auto mb-2 fa-globe "></i>
+                        <i class="fa-solid mx-auto fa-share-nodes "></i>
                     </div>
                 </div>
             </div>
@@ -155,5 +162,6 @@
     <script src="node_modules/@fortawesome/fontawesome-free/js/all.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
