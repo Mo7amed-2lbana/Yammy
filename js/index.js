@@ -1,13 +1,24 @@
-let cls = $("#ev .close");
-let shw = $("#ev .show");
+import { Home } from './Home/Home.js';
+const hideMenu = new Home;
 
-cls.click(function(){
-    $("#menu").animate({left:-$("#menu .col-9").outerWidth(true)},500);
-    cls.addClass("d-none");
-    shw.removeClass("d-none");
-});
-shw.click(function(){
-    $("#menu").animate({left:0},500)
-    shw.addClass("d-none");
-    cls.removeClass("d-none");
-});
+class Main{
+
+    constructor(){
+        
+        $("#ev .close").click(function(){
+            hideMenu.hide();
+        
+        });
+        
+        $("#ev .show").click(function(){
+            hideMenu.show()
+        });
+
+    }
+    
+    
+    
+    
+}
+
+const main = new Main;
