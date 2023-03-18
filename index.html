@@ -13,6 +13,10 @@
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="stylesheet" href="css/index.css" />
   </head>
   <body >
@@ -20,17 +24,27 @@
     <nav id="menu" class=" position-fixed">
       <div class="conatiner">
         <div class="row vh-100">
-            <div  class="col-9 m-0 p-0 position-relative">
+            <div  class="col-9 bg-black m-0 p-0 position-relative">
                 <div class="row vh-100 flex-column justify-content-between m-0 p-0">
                     <div class="col-12">
                         <div class="  p-3">
-                            <ul class="list-unstyled links position-absolute py-3">
-                                <li class="mb-3"><a href="#" class="text-light text-decoration-none">Search</a></li>
-                                <li class="mb-3"><a href="#" class="text-light text-decoration-none">Categories</a></li>
-                                <li class="mb-3"><a href="#" class="text-light text-decoration-none">Area</a></li>
-                                <li class="mb-3"><a href="#" class="text-light text-decoration-none">Ingrediants</a></li>
-                                <li class="mb-3"><a href="#" class="text-light text-decoration-none">Contact Us</a></li>
-                            </u>
+                            <ul class="list-unstyled links position-relative py-3">
+                                <div class=" lists overflow-hidden ">
+                                    <li class="one position-relative mb-3 menu-link "><a href="#" class="text-light text-decoration-none">Search</a></li>
+                                </div>
+                                <div class=" lists overflow-hidden">
+                                    <li class="two position-relative mb-3 menu-link "><a href="#" class="text-light text-decoration-none">Categories</a></li>
+                                </div>
+                                <div class=" lists overflow-hidden">
+                                    <li class="three position-relative mb-3 menu-link "><a href="#" class="text-light text-decoration-none">Area</a></li>
+                                </div>
+                                <div class=" lists overflow-hidden">
+                                    <li class="four position-relative mb-3 menu-link "><a href="#" class="text-light text-decoration-none">Ingrediants</a></li>
+                                </div>
+                                <div class=" lists overflow-hidden">
+                                    <li class="five position-relative mb-3 menu-link "><a href="#" class="text-light text-decoration-none">Contact Us</a></li>
+                                </div>
+                                </u>
                         </div>
                     </div>
                     <div class="col-12">
@@ -40,7 +54,7 @@
                                 <i class="fa-brands text-light fa-twitter"></i>
                                 <i class="fa-solid text-light fa-globe"></i>
                             </div>
-                            <p class="mb-0 text-white-50">Copyright A @Copy 2023 All right Reserved</p>
+                            <p class="mb-0  ms-2 text-white">Copyright A @Copy 2023 All right Reserved</p>
                         </div>
                     </div>
                 </div>
@@ -61,7 +75,7 @@
                             <i class="fa-solid fa-xmark fa-3x"></i>                    
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 d-flex">
 
                         <i class="fa-solid mx-auto mb-2 fa-globe "></i>
                         <i class="fa-solid mx-auto fa-share-nodes "></i>
@@ -74,87 +88,14 @@
     <!-- End navBar  -->
     <header class="py-5">
         <div class="container">
-            <div class="row gy-4">
-                <div class="col-md-3  text-center">
-                    <div class="me-1 ">
-                        <img src="./portfolio-1.jpg" class=" rounded-3 img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-3  text-center">
-                    <div class=" me-1">
+            <div class="row header-api gy-4">
+                <!-- <div class="col-md-3  text-center">
+                    <div class=" imgs me-1 position-relative overflow-hidden">
                         <img src="./portfolio-1.jpg" class="  rounded-3 img-fluid" alt="">
+                        <div id="info" class=" position-absolute w-100 start-0 h-100 rounded-4">
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-3  text-center">
-                    <div class=" me-1">
-                        <img src="./portfolio-1.jpg" class="  rounded-3 img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-3  text-center">
-                    <div class=" me-1">
-                        <img src="./portfolio-1.jpg" class="  rounded-3 img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-3  text-center">
-                    <div class="me-1 ">
-                        <img src="./portfolio-1.jpg" class=" rounded-3 img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-3  text-center">
-                    <div class=" me-1">
-                        <img src="./portfolio-1.jpg" class="  rounded-3 img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-3  text-center">
-                    <div class=" me-1">
-                        <img src="./portfolio-1.jpg" class="  rounded-3 img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-3  text-center">
-                    <div class=" me-1">
-                        <img src="./portfolio-1.jpg" class="  rounded-3 img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-3  text-center">
-                    <div class="me-1 ">
-                        <img src="./portfolio-1.jpg" class=" rounded-3 img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-3  text-center">
-                    <div class=" me-1">
-                        <img src="./portfolio-1.jpg" class="  rounded-3 img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-3  text-center">
-                    <div class=" me-1">
-                        <img src="./portfolio-1.jpg" class="  rounded-3 img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-3  text-center">
-                    <div class=" me-1">
-                        <img src="./portfolio-1.jpg" class="  rounded-3 img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-3  text-center">
-                    <div class="me-1 ">
-                        <img src="./portfolio-1.jpg" class=" rounded-3 img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-3  text-center">
-                    <div class=" me-1">
-                        <img src="./portfolio-1.jpg" class="  rounded-3 img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-3  text-center">
-                    <div class=" me-1">
-                        <img src="./portfolio-1.jpg" class="  rounded-3 img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-3  text-center">
-                    <div class=" me-1">
-                        <img src="./portfolio-1.jpg" class="  rounded-3 img-fluid" alt="">
-                    </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </header>
@@ -162,6 +103,6 @@
     <script src="node_modules/@fortawesome/fontawesome-free/js/all.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="js/index.js"></script>
+    <script src="js/index.js" type="module"></script>
   </body>
 </html>
